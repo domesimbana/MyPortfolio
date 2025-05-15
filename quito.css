@@ -1,0 +1,43 @@
+/*Background of home page*/
+body {
+    margin:0;
+    padding:0;
+    background:url('designs/EcuadorBack.png') no-repeat center center fixed;
+    background-size:cover;
+    background-size:102% 102%;
+}
+ /*Dome Title*/
+ #domeTitle {
+    font-family:'Sentient-Light', serif;
+    position:absolute;
+    color:white;
+    font-size:80px;
+  }
+  
+  #line {
+    font-family:'Sentient-Light', serif;
+    position:absolute;
+    color:white;
+    font-size:10px;
+  }
+
+  #homeTitle {
+    font-family:'Sentient-Light', serif;
+    position:absolute;
+    color:white;
+    font-size:25px;
+  }
+
+  #aboutTitle {
+    font-family:'Sentient-Light', serif;
+    position:absolute;
+    color:white;
+    font-size:25px;
+  }
+
+  #contactTitle {
+    font-family:'Sentient-Light', serif;
+    position:absolute;
+    color:white;
+    font-size:25px;
+  }

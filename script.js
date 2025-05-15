@@ -20,7 +20,6 @@ window.onload=function () {
     const contact=document.getElementById('contactTitle');
     contact.style.left='1225px';
     contact.style.top='60px';
-
     /*Focuses on the getting the location stickers changing*/
     const quito = document.getElementById('quito');
     quito.addEventListener('click',()=>{

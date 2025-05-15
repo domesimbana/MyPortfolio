@@ -69,3 +69,59 @@ body {
     left: 810px;
     width: 350px;
   }
+
+  #quito {
+    position: absolute;
+    top:242px;
+    left: 840px;
+    width: 110px;
+  }
+
+  #resume {
+    position: absolute;
+    top:327px;
+    left: 822px;
+    width: 90px;
+  }
+
+  #boston {
+    position: absolute;
+    top:435px;
+    left: 787px;
+    width: 125px;
+  }
+
+  #miami {
+    position: absolute;
+    top:360px;
+    left: 883px;
+    width: 100px;
+  }
+
+  #kyoto {
+    position: absolute;
+    top:387px;
+    left: 960px;
+    width: 110px;
+  }
+
+  #gainesville {
+    position: absolute;
+    top:250px;
+    left: 1050px;
+    width: 120px;
+  }
+
+  #wing {
+    position: absolute;
+    top:345px;
+    left: 1045px;
+    width: 120px;
+  }
+
+  #philly {
+    position: absolute;
+    top:450px;
+    left: 1030px;
+    width: 110px;
+  }

@@ -20,4 +20,40 @@ window.onload=function () {
     const contact=document.getElementById('contactTitle');
     contact.style.left='1225px';
     contact.style.top='60px';
+
+    /*Focuses on the getting the location stickers changing*/
+    const quito = document.getElementById('quito');
+    quito.addEventListener('click',()=>{
+        window.location.href = 'quito.html';
+    });
+
+    const boston = document.getElementById('boston');
+    boston.addEventListener('click',()=>{
+        window.location.href = 'boston.html';
+    });
+
+    const gainesville = document.getElementById('gainesville');
+    gainesville.addEventListener('click',()=>{
+        window.location.href = 'gainesville.html';
+    });
+
+    const kyoto = document.getElementById('kyoto');
+    kyoto.addEventListener('click',()=>{
+        window.location.href = 'kyoto.html';
+    });
+
+    const miami = document.getElementById('miami');
+    miami.addEventListener('click',()=>{
+        window.location.href = 'miami.html';
+    });
+
+    const philly = document.getElementById('philly');
+    philly.addEventListener('click',()=>{
+        window.location.href = 'philly.html';
+    });
+
+    const resume = document.getElementById('resume');
+    resume.addEventListener('click',()=>{
+        window.location.href = 'resume.html';
+    });
   };

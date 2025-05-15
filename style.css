@@ -62,3 +62,10 @@ body {
     left: 775px;
     width: 575px;
   }
+
+  #dontMoveStickers {
+    position: absolute;
+    top:255px;
+    left: 810px;
+    width: 350px;
+  }

@@ -41,3 +41,34 @@ body {
     color:white;
     font-size:25px;
   }
+
+  .stripClass{
+    position:absolute;
+    top:111px;
+    left:56px;
+    width:220px;
+    height:600px;
+    overflow:hidden;
+  }
+  
+  #strip {
+    width:100%;
+    display:block;
+    animation:scrollDown 10s linear infinite;
+  }
+  
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+
+  #steady {
+    position: absolute;
+    top:111px;
+    left: 260px;
+    width: 235px;
+  }

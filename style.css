@@ -6,6 +6,14 @@ body {
     background-size:cover;
     background-size:102% 102%;
 }
+body {
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+}
+
+body.loaded {
+  opacity: 1;
+}
  /*Dome Title*/
  #domeTitle {
     font-family:'Sentient-Light', serif;

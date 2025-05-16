@@ -83,13 +83,33 @@ body {
 
   .scrollableInfo {
     position: absolute;
-    top:115px;
+    top:150px;
     left: 600px;
     width: 625px;
-    height: 565px;
+    height: 525px;
     overflow-y: auto;
-    padding: 10px;
+    padding: 10px 30px 10px 10px;
     text-align:center;
+  }
+
+  /*Change the scroll bar*/
+  .scrollableInfo::-webkit-scrollbar{
+    width: 12px;
+  }
+
+  .scrollableInfo::-webkit-scrollbar-track {
+    background: #169E9D;
+    border-radius: 20px;
+  }
+  
+  .scrollableInfo::-webkit-scrollbar-thumb {
+    background-color: #147C50;
+    border-radius: 10px;
+    border: 3px solid #147C50;
+  }
+  
+  .scrollableInfo::-webkit-scrollbar-thumb:hover {
+    background-color: #1CB47D;
   }
 
   .scrollableInfo .personalInfo {
@@ -112,7 +132,21 @@ body {
     text-align:center;
   }
 
+  .scrollableInfo .funInfo {
+    font-family:'Sentient-Light', serif;
+    color:white;
+    font-size:20px;
+    text-align:center;
+  }
+
   .scrollableInfo #thirdHeader {
+    font-family:'Sentient-Bold', serif;
+    color:white;
+    font-size:25px;
+    text-align:center;
+  }
+
+  .scrollableInfo #fourthHeader {
     font-family:'Sentient-Bold', serif;
     color:white;
     font-size:25px;
@@ -156,4 +190,17 @@ body {
     color:white;
     font-size:10px;
     text-align:center;
+  }
+
+  .scrollableInfo .line4 {
+    color:white;
+    font-size:10px;
+    text-align:center;
+  }
+
+  #panecillo {
+    position:absolute;
+    top:257px;
+    left:-10px;
+    width: 500px;
   }

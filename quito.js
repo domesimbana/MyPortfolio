@@ -33,3 +33,7 @@ window.onload=function () {
     contact.style.left='1225px';
     contact.style.top='60px';
 };
+
+window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+});

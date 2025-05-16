@@ -8,12 +8,13 @@ body {
 }
 body {
   opacity: 0;
-  transition: opacity 0.1s ease-in;
+  transition: opacity 0.5s ease-in;
 }
 
 body.loaded {
   opacity: 1;
 }
+
  /*Dome Title*/
  #domeTitle {
     font-family:'Sentient-Light', serif;
@@ -35,12 +36,18 @@ body.loaded {
     color:white;
     font-size:25px;
   }
+  #homeTitle.clicked {
+    opacity: 0.4;
+  }
 
   #aboutTitle {
     font-family:'Sentient-Light', serif;
     position:absolute;
     color:white;
     font-size:25px;
+  }
+  #aboutTitle.clicked {
+    opacity: 0.4;
   }
 
   #contactTitle {

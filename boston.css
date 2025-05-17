@@ -61,26 +61,136 @@ body.loaded {
   #pic1 {
     position:absolute;
     top:110px;
-    left:60px;
+    left:260px;
     width:355px;
   }
   #pic2 {
     position:absolute;
     top:304px;
-    left:60px;
+    left:260px;
     width:355px;
   }
   #pic3 {
     position:absolute;
     top:505px;
-    left:60px;
+    left:260px;
     width:355px;
   }
   #title {
     position:absolute;
-    top:10px;
-    left:550px;
-    width:800px;
-    height:800px;
+    top:115px;
+    left:760px;
+    width:500px;
+  }
+  #corner {
+    position:absolute;
+    top:438px;
+    left:895px;
+    width:525px;
+  }
+
+  .stripClass{
+    position:absolute;
+    top:111px;
+    left:56px;
+    width:220px;
+    height:590px;
     overflow:hidden;
+  }
+  
+  /*Allows for the scrolling of the photo strip*/
+  #strip {
+    width:100%;
+    display:block;
+    animation:scrollDown 10s linear infinite;
+  }
+
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  #star {
+    position:absolute;
+    top:200px;
+    left:535px;
+    width:150px;
+  }
+
+  #star2 {
+    position:absolute;
+    top:425px;
+    left:535px;
+    width:150px;
+  }
+
+  @keyframes rotation {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(10deg); }
+    50%  { transform: rotate(0deg); }
+    75%  { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .star {
+    animation: rotation 2s infinite;
+    transform-origin: center;
+  }
+
+  @keyframes rotationSmall {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(2deg); }
+    50%  { transform: rotate(0deg); }
+    75%  { transform: rotate(-2deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  .title{
+    animation: rotationSmall 2s infinite;
+    transform-origin: center;
+  }
+
+  #hackSummary {
+    font-family:'Sentient-Light', serif;
+    position:absolute;
+    top:270px;
+    left: 775px;
+    width:500px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+  }
+  #HackMIT {
+    font-family:'Sentient-Bold', serif;
+    position:absolute;
+    top:225px;
+    left: 775px;
+    width:500px;
+    color:white;
+    font-size:25px;
+    text-align:center;
+  }
+
+  #line2 {
+    position:absolute;
+    top:223px;
+    left: 775px;
+    color:white;
+    font-size:25px;
+    text-align:center;
+  }
+
+  #hackSummary2 {
+    font-family:'Sentient-Light', serif;
+    position:absolute;
+    top:415px;
+    left: 775px;
+    width:500px;
+    color:white;
+    font-size:20px;
+    text-align:center;
   }

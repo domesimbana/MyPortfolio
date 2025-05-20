@@ -60,27 +60,27 @@ body.loaded {
 
   #pic1 {
     position:absolute;
-    top:112px;
-    left:295px;
-    width:345px;
+    top:110px;
+    left:260px;
+    width:355px;
   }
   #pic2 {
     position:absolute;
-    top:300px;
-    left:295px;
-    width:345px;
+    top:295px;
+    left:260px;
+    width:355px;
   }
   #pic3 {
     position:absolute;
-    top:487px;
-    left:295px;
-    width:345px;
+    top:480px;
+    left:260px;
+    width:355px;
   }
   #title {
     position:absolute;
-    top:115px;
-    left:850px;
-    width:350px;
+    top:105px;
+    left:870px;
+    width:300px;
   }
   #corner {
     position:absolute;
@@ -89,17 +89,42 @@ body.loaded {
     width:525px;
   }
 
+  .stripClass{
+    position:absolute;
+    top:111px;
+    left:56px;
+    width:220px;
+    height:590px;
+    overflow:hidden;
+  }
+  
+  /*Allows for the scrolling of the photo strip*/
+  #strip {
+    width:100%;
+    display:block;
+    animation:scrollDown 10s linear infinite;
+  }
+
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
   #star {
     position:absolute;
-    top:235px;
-    left:250px;
+    top:240px;
+    left:545px;
     width:75px;
   }
 
   #star2 {
     position:absolute;
-    top:460px;
-    left:585px;
+    top:450px;
+    left:250px;
     width:75px;
   }
 
@@ -132,9 +157,9 @@ body.loaded {
   #hackSummary {
     font-family:'Sentient-Light', serif;
     position:absolute;
-    top:270px;
-    left: 750px;
-    width:600px;
+    top:245px;
+    left: 775px;
+    width:500px;
     color:white;
     font-size:20px;
     text-align:center;
@@ -142,7 +167,7 @@ body.loaded {
   #ShellHacks {
     font-family:'Sentient-Bold', serif;
     position:absolute;
-    top:225px;
+    top:200px;
     left: 775px;
     width:500px;
     color:white;
@@ -152,7 +177,7 @@ body.loaded {
 
   #line2 {
     position:absolute;
-    top:223px;
+    top:200px;
     left: 775px;
     color:white;
     font-size:25px;
@@ -162,27 +187,21 @@ body.loaded {
   #hackSummary2 {
     font-family:'Sentient-Light', serif;
     position:absolute;
-    top:390px;
-    left: 750px;
-    width:600px;
-    color:white;
-    font-size:20px;
-    text-align:center;
-  }
-  #hackSummary3 {
-    font-family:'Sentient-Light', serif;
-    position:absolute;
-    top:545px;
-    left: 750px;
-    width:600px;
+    top:365px;
+    left: 775px;
+    width:500px;
     color:white;
     font-size:20px;
     text-align:center;
   }
 
-  #ticket{
+  #hackSummary3 {
+    font-family:'Sentient-Light', serif;
     position:absolute;
-    top:111px;
-    left:50px;
-    width:245px;
+    top:535px;
+    left: 775px;
+    width:500px;
+    color:white;
+    font-size:20px;
+    text-align:center;
   }

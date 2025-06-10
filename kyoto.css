@@ -2,7 +2,7 @@
 body {
     margin:0;
     padding:0;
-    background:url('designs/MiamiBackground.png') no-repeat center center fixed;
+    background:url('designs/KyotoBackground.png') no-repeat center center fixed;
     background-size:cover;
     background-size:102% 102%;
 }
@@ -78,8 +78,8 @@ body.loaded {
   }
   #title {
     position:absolute;
-    top:105px;
-    left:870px;
+    top:100px;
+    left:865px;
     width:300px;
   }
   #corner {
@@ -117,14 +117,14 @@ body.loaded {
   #star {
     position:absolute;
     top:240px;
-    left:545px;
+    left:645px;
     width:75px;
   }
 
   #star2 {
     position:absolute;
     top:450px;
-    left:250px;
+    left:645px;
     width:75px;
   }
 
@@ -157,7 +157,7 @@ body.loaded {
   #hackSummary {
     font-family:'Sentient-Light', serif;
     position:absolute;
-    top:245px;
+    top:220px;
     left: 775px;
     width:500px;
     color:white;
@@ -167,7 +167,7 @@ body.loaded {
   #ShellHacks {
     font-family:'Sentient-Bold', serif;
     position:absolute;
-    top:200px;
+    top:180px;
     left: 775px;
     width:500px;
     color:white;
@@ -177,7 +177,7 @@ body.loaded {
 
   #line2 {
     position:absolute;
-    top:200px;
+    top:180px;
     left: 775px;
     color:white;
     font-size:25px;
@@ -187,7 +187,7 @@ body.loaded {
   #hackSummary2 {
     font-family:'Sentient-Light', serif;
     position:absolute;
-    top:365px;
+    top:340px;
     left: 775px;
     width:500px;
     color:white;
@@ -198,7 +198,18 @@ body.loaded {
   #hackSummary3 {
     font-family:'Sentient-Light', serif;
     position:absolute;
-    top:535px;
+    top:460px;
+    left: 775px;
+    width:500px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+  }
+
+  #hackSummary4 {
+    font-family:'Sentient-Light', serif;
+    position:absolute;
+    top:580px;
     left: 775px;
     width:500px;
     color:white;

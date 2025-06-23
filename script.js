@@ -66,9 +66,29 @@ window.onload=function () {
 
     const resume = document.getElementById('resume');
     resume.addEventListener('click',()=>{
-        window.open('resume.pdf', '_blank');
+        window.open('.pdf', '_blank');
     });
   };
   window.addEventListener('load', () => {
     document.body.classList.add('loaded');
 });
+
+function scalePage() {
+    const baseWidth = 1455;
+    const baseHeight = 650;
+
+    const scaleX = window.innerWidth / baseWidth;
+    const scaleY = window.innerHeight / baseHeight;
+    const scale = Math.min(scaleX, scaleY);
+
+    const wrapper = document.getElementById("scaleWrapper");
+    if (wrapper) {
+      wrapper.style.transform = `translateX(-50%) scale(${scale})`;
+      wrapper.style.width = baseWidth + "px";
+      wrapper.style.height = baseHeight + "px";
+    }
+
+  }
+
+  window.addEventListener("resize", scalePage);
+  window.addEventListener("load", scalePage);

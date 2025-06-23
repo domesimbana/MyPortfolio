@@ -59,14 +59,14 @@ window.onload=function () {
         window.location.href = 'miami.html';
     });
 
-    const philly = document.getElementById('philly');
-    philly.addEventListener('click',()=>{
-        window.location.href = 'philly.html';
-    });
+    //const philly = document.getElementById('philly');
+    //philly.addEventListener('click',()=>{
+        //window.location.href = 'philly.html';
+    //});
 
     const resume = document.getElementById('resume');
     resume.addEventListener('click',()=>{
-        window.location.href = 'resume.html';
+        window.open('resume.pdf', '_blank');
     });
   };
   window.addEventListener('load', () => {

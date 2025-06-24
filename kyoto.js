@@ -37,3 +37,22 @@ window.onload=function () {
 window.addEventListener('load', () => {
     document.body.classList.add('loaded');
 });
+function scalePage() {
+    const baseWidth = 1335;
+    const baseHeight = 645;
+
+    const scaleX = window.innerWidth / baseWidth;
+    const scaleY = window.innerHeight / baseHeight;
+    const scale = Math.min(scaleX, scaleY);
+
+    const wrapper = document.getElementById("scaleWrapper");
+    if (wrapper) {
+      wrapper.style.transform = `translateX(0%) scale(${scale})`;
+      wrapper.style.width = baseWidth + "px";
+      wrapper.style.height = baseHeight + "px";
+    }
+
+  }
+
+  window.addEventListener("resize", scalePage);
+  window.addEventListener("load", scalePage);

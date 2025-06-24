@@ -1,3 +1,9 @@
+#scaleWrapper {
+  overflow: hidden;
+  position: absolute;
+  left: 1%;
+  transform-origin: top left;
+}
 /*Background of home page*/
 body {
     margin:0;

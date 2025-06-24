@@ -66,7 +66,7 @@ window.onload=function () {
 
     const resume = document.getElementById('resume');
     resume.addEventListener('click',()=>{
-        window.open('.pdf', '_blank');
+        window.open('resume.pdf', '_blank');
     });
   };
   window.addEventListener('load', () => {
@@ -74,8 +74,8 @@ window.onload=function () {
 });
 
 function scalePage() {
-    const baseWidth = 1455;
-    const baseHeight = 650;
+    const baseWidth = 1335;
+    const baseHeight = 645;
 
     const scaleX = window.innerWidth / baseWidth;
     const scaleY = window.innerHeight / baseHeight;
@@ -83,7 +83,7 @@ function scalePage() {
 
     const wrapper = document.getElementById("scaleWrapper");
     if (wrapper) {
-      wrapper.style.transform = `translateX(-50%) scale(${scale})`;
+      wrapper.style.transform = `translateX(0%) scale(${scale})`;
       wrapper.style.width = baseWidth + "px";
       wrapper.style.height = baseHeight + "px";
     }

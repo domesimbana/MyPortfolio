@@ -1,3 +1,9 @@
+#scaleWrapper {
+  overflow: hidden;
+  position: absolute;
+  left: 1%;
+  transform-origin: top left;
+}
 /*Background of home page*/
 body {
     margin:0;
@@ -161,7 +167,7 @@ body.loaded {
     left: 775px;
     width:500px;
     color:white;
-    font-size:20px;
+    font-size:18px;
     text-align:center;
   }
   #ShellHacks {
@@ -187,32 +193,32 @@ body.loaded {
   #hackSummary2 {
     font-family:'Sentient-Light', serif;
     position:absolute;
-    top:340px;
+    top:315px;
     left: 775px;
     width:500px;
     color:white;
-    font-size:20px;
+    font-size:18px;
     text-align:center;
   }
 
   #hackSummary3 {
     font-family:'Sentient-Light', serif;
     position:absolute;
-    top:460px;
+    top:430px;
     left: 775px;
     width:500px;
     color:white;
-    font-size:20px;
+    font-size:18px;
     text-align:center;
   }
 
   #hackSummary4 {
     font-family:'Sentient-Light', serif;
     position:absolute;
-    top:580px;
+    top: 545px;
     left: 775px;
     width:500px;
     color:white;
-    font-size:20px;
+    font-size:18px;
     text-align:center;
   }

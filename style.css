@@ -1,9 +1,7 @@
 #scaleWrapper {
-  /*position: absolute;*/
   overflow: hidden;
-  position: relative;
-  top: 0;
-  left: 50%;
+  position: absolute;
+  left: 1%;
   transform-origin: top left;
 }
 /*Background of home page*/
